@@ -12,9 +12,9 @@ int main(void)
 int i = '0';
 int d = '0';
 
-while (i <= 9)
+while (i <= '9')
 {
-while (d <= 9)
+while (d <= '9')
 {
 if (!(i > d || i == d))
 {
