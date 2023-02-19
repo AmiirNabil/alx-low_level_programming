@@ -3,7 +3,7 @@
 /**
 * main - the main entry point
 *
-* Description: a program that prints the alphabet in lowercase and then in uppercase
+* Description: a program that prints the alphabets
 *
 * Return: Always 0 (Success)
 */
@@ -22,6 +22,6 @@ while (chCap <= 'Z')
 putchar(chCap);
 chCap++;
 }
- putchar('\n');
-return(0);
+putchar('\n');
+return (0);
 }
