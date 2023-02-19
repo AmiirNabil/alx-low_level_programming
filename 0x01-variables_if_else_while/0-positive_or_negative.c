@@ -4,8 +4,9 @@
 
 
 /**
-* main function is the main entry point
-* return status 0 means program exit code is success
+* main - function is the main entry point
+* Description: 'get random value signature of an int'
+* Return: Always 0 (Success)
 */
 int main(void)
 {
