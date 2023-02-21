@@ -1,4 +1,5 @@
 #include "_putchar.c"
+#include "main.h"
 
 /**
 * main - program entry point
@@ -7,7 +8,6 @@
 *
 * Return: 0 success
 */
-
 int main(void)
 {
 char ch[] = "_putchar";
