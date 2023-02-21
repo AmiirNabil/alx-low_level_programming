@@ -1,0 +1,18 @@
+/**
+* print_alphabet - entry point
+*
+* Description: prints alphabets
+*
+* return: 0 success
+*/
+
+void print_alphabet()
+{
+char ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
+}
+_putchar('\n');
+}
