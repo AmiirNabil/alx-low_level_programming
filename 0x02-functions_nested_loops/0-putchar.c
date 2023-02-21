@@ -1,21 +1,22 @@
-#include "_putchar.c"
+#include "main.h"
 
 /**
-* main - main entry point
+* main - program entry point
 *
-* Description: a program that prints _putchar
+* Description: prints _putchar
 *
-* Return : 0 success
+* Return: 0 success
 */
 
 int main(void)
 {
-char *ch = "_putchar";
-
-while (*ch)
+char ch[] = "_putchar";
+int c = 0;
+while (c < 8)
 {
-_putchar(*ch);
-++*ch;
+_putchar(ch[c]);
+c++;
 }
- return (0);
+_putchar('\n');
+return (0);
 }
