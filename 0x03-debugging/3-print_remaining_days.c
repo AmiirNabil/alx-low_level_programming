@@ -8,6 +8,7 @@
 * @day: day of month
 * @year: year
 * Return: void
+* Description: checks date
 */
 
 void print_remaining_days(int month, int day, int year)
