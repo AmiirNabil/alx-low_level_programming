@@ -9,7 +9,7 @@
 *
 * @y: second number
 *
-* Return : the value
+* Return: x + y that is the addition 
 */
 
 int add(int x, int y)
