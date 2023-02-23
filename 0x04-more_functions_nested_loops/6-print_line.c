@@ -5,6 +5,8 @@
  *
  * Return: void
  *
+ * Description: prints lines
+ *
  * @n: the number of columns
  */
 
@@ -17,7 +19,7 @@ _putchar('\n');
 }
 else
 {
-for (i = 0; i <= n; i++)
+for (i = 1; i <= n; i++)
 {
 _putchar('_');
 }
