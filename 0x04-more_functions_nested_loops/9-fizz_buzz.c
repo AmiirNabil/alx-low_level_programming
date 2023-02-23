@@ -15,21 +15,25 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 15 != 0)
 {
-printf("Fizz ");
+printf("Fizz");
 continue;
 }
 else if (i % 5 == 0 && i % 15 != 0)
 {
-printf("Buzz ");
+printf("Buzz");
 continue;
 }
 else if (i % 15 == 0)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 continue;
 }
 printf("%d ", i);
-}
+
+if (n < 100)
+printf(" ");
+else
 printf("\n");
+}
 return (0);
 }
