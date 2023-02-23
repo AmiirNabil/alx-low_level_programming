@@ -28,7 +28,7 @@ else if (i % 15 == 0)
 printf("FizzBuzz");
 continue;
 }
-printf("%d ", i);
+printf("%d", i);
 
 if (i < 100)
 printf(" ");
