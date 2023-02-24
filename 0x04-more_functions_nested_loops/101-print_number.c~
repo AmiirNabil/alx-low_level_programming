@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * pont_number - prints any integer
+ *
+ * Return: void
+ *
+ * @n: number to print
+ */
+
+void print_number(int n)
+{
+  int i, j;
+  if (n < 0)
+    n = -n;
+  
+  for (i = 1000000000; i > 10; i = i / 10)
+    {
+      j = n / i;
+      printf("%d ", j);
+      
+      if (j < 1)
+	continue;
+
+      /* else*/
+	/*	_putchar(j + '0'); */
+
+    }
+  _putchar(n % 10);
+}
