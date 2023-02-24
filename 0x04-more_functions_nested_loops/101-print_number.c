@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pont_number - prints any integer
+ * print_number - prints any integer
  *
  * Return: void
  *
