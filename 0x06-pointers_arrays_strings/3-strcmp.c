@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcmp - compares two strings
+ * _strcmp - compares two strings
  *
  * Return: int ( the difference between ascii codes of first char of string)
  *
