@@ -2,27 +2,24 @@
 
 /**
  * _strcat - concatenates two strings
- *
- * Return: array of char of cocatenated strings
- *
- * @dest: the starting string
- *
- * @src: the array to be appended
+ * @dest: dest string
+ * @src: src string
+ * Return: pointer to resulting string
  */
-
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int s = 0, i = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	while (dest[s] != 0)
 	{
+		s++;
 	}
-
-	for (j = 0; src[j] != '\0'; j++)
+	while (src[i] != 0)
 	{
-		dest[i + j] = src[j];
+		dest[s + i] = src[i];
 		i++;
 	}
-	dest[i + j] = 0;
+
+	dest[s + i] = 0;
 	return (dest);
 }
