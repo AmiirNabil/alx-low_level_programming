@@ -14,5 +14,6 @@ int prime2(int x, int y);
 int is_palindrome(char *s);
 int rec_longstring(char *s);
 int revstring(char *s, int lon);
+int wildcmp(char *s1, char *s2);
 
 #endif
